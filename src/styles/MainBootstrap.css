@@ -1,0 +1,12 @@
+.recuadro-saliente {
+  background-color: #39207e;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  font-family: Georgia, serif;
+  border-radius: 0;         /* sin bordes redondeados */
+  transition: none;         /* sin animaciones */
+}
+
+.recuadro-saliente:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2)
+}

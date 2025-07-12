@@ -1,0 +1,41 @@
+.productos-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    width: 100%;
+}
+
+.producto-card{
+    background-color: bisque;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.producto-image{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.btn-trash {
+  background: transparent;
+  border: none;
+  color: #dc3545; /* rojo Bootstrap */
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.btn-trash:hover,
+.btn-trash:focus {
+  color: #a71d2a; /* rojo más oscuro al hover */
+  transform: scale(1.2);
+  outline: none;
+}

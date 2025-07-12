@@ -1,0 +1,70 @@
+/* Contenedor general */
+.formulario-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-family: 'Georgia', serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+/* Título */
+.formulario-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  color: #333;
+}
+
+/* Grupo */
+.formulario-grupo {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Etiquetas */
+.formulario-grupo label {
+  margin-bottom: 6px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Inputs y textarea */
+.formulario-grupo input,
+.formulario-grupo textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: 'Georgia', serif;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Botón */
+.formulario-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: 'Georgia', serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-container button:hover {
+  background-color: #005fa3;
+}
+

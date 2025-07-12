@@ -1,0 +1,25 @@
+/* CarritoBootstrap.css */
+
+.btn-vaciar {
+  background-color: #004080;    /* Azul oscuro */
+  border-color: #003366;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 64, 128, 0.4);
+  cursor: pointer;
+  display: inline-block;
+  border-width: 2px;
+}
+
+.btn-vaciar:hover,
+.btn-vaciar:focus {
+  background-color: #00264d;    /* Azul más oscuro */
+  border-color: #001a33;
+  box-shadow: 0 5px 12px rgba(0, 38, 77, 0.6);
+  color: white;
+  text-decoration: none;
+  outline: none;
+}
