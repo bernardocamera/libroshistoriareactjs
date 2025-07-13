@@ -7,7 +7,7 @@ function MainBootstrap() {
       <Row className="align-items-center">
         <Col md={4}>
           <Image
-            src="/imagenes/historiauniversal.png"
+            src={`${import.meta.env.BASE_URL}imagenes/historiauniversal.png`}
             alt="Imagen ilustrativa"
             fluid
             className="w-100 imagen-animada"

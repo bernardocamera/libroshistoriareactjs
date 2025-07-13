@@ -16,7 +16,7 @@ function About() {
       <h2>Libros Historia</h2>
 
       <img
-        src="../imagenes/historiauniversal.png"
+        src={`${import.meta.env.BASE_URL}imagenes/historiauniversal.png`}
         alt="Historia"
         style={{
           maxWidth: "200px",
@@ -30,13 +30,15 @@ function About() {
           boxShadow: hover
             ? "0 10px 20px rgba(0,0,0,0.3)"
             : "0 0 8px rgba(0,0,0,0.2)",
-          cursor: "pointer",
-          transform: hover ? "translateY(-10px)" : "translateY(0)",
-          transition: "transform 0.3s ease, box-shadow 0.3s ease",
+            cursor: "pointer",
+            transform: hover ? "translateY(-10px)" : "translateY(0)",
+            transition: "transform 0.3s ease, box-shadow 0.3s ease",
         }}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       />
+
+
 
       <p>
         Bienvenido a nuestra tienda de libros especializada en Historia Universal.
